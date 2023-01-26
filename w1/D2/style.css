@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#container{
+    width:80%;
+    border:2px solid black;
+    margin:0px auto;
+    padding:20px 15px 10px 5px;
+}
+
+h1{
+    background-color: rebeccapurple;
+    color:aqua;
+    text-align: center;
+    padding:30px;
+}
+
+.blue-text{
+    color:blue;
+}
+
+.gothic{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#red, #green{
+    height:400px;
+    width:400px;
+    display:inline-block;
+}
+
+#red{
+    border: 2px solid red;
+
+
+}
+#green{
+    border: 2px solid green;
+    vertical-align: top;
+}
+.yellow{
+    width:100px;
+    height:100px;
+    background-color: yellow;
+    display:inline-block;
+}

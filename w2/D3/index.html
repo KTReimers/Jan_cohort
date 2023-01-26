@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billy's Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div class="nav-bar">
+            <h1>Welcome to Billy's Hero Shop!</h1>
+            <div class="nav-right">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Products</a>
+                    </li>
+                    <li>
+                        <a href="#">Company</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <img src="./images/shopping-cart-icon.jpg" class="shoppingCart" alt="shopping cart icon">
+                        <span>0</span>
+                    </li>
+                </ul>
+                <form action="#" onsubmit="searchBar(event)">
+                    <input type="text" id="search" value="search">
+                </form>
+            </div>
+        </div>
+        <div class="main">
+            <div id="popup">
+                <h3>Heroic Deal!</h3>
+                <p>Save 20% with Code: enchiridon</p>
+                <button class="popup-btn border" onclick="popUp()">No</button>
+                <button class="popup-btn" onclick="popUp()">Yes</button>
+            </div>
+            <div class="top-main">
+                <h2>Featured Product</h2>
+                <img class="golden-sword" src="./images/golden_sword_of_battle.jpg" alt="golden sword od battle">
+                <h2>Golden Sword Of Battle! (AKA "Scarlet")</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio et nobis quasi veritatis incidunt officia omnis voluptas vel obcaecati, voluptatibus, sit facilis labore eum possimus ipsa deserunt nisi, cumque perspiciatis.</p>
+                <button class="addCart" onclick="addToCart()">Add to cart</button>
+            </div>
+            <h2>Other Heroic Products:</h2>
+            <div class="bottom-main">
+                <div class="products">
+                    <img class="sword" src="./images/root_sword.jpg" alt="Root Sword">
+                    <h4>Root Sword</h4>
+                    <button class="addCart" onclick="addToCart()">Add to cart</button>
+                </div>
+                <div class="products">
+                    <img class="sword" src="./images/demon_blood_sword.jpg" alt="Demon Blood Sword">
+                    <h4>Demon Blood Sword</h4>
+                    <button class="addCart" onclick="addToCart()">Add to cart</button>
+                </div>
+                <div class="products">
+                    <img class="sword" src="./images/finn_sword.jpg" alt="Finn Sword">
+                    <h4>Finn Sword</h4>
+                    <button class="addCart" onclick="addToCart()">Add to cart</button>
+                </div>
+                <div class="products">
+                    <img class="sword" src="./images/grass_sword.jpg" alt="Grass Sword">
+                    <h4>Grass Sword</h4>
+                    <button class="addCart" onclick="addToCart()">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <p class="footer">Copyright @ Billy the Hero 2022</p>
+    </div>
+</body>
+</html>
