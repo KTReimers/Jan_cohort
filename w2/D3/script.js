@@ -21,4 +21,4 @@ function addToCart(){
     var cart = document.querySelector('span')
     cart.innerText++
 }
-
+console.log("this is new")
