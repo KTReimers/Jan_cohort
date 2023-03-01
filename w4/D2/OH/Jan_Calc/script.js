@@ -58,7 +58,7 @@ function calculate(){
         display.innerText = result.substring(0,12) + "..."
         console.log("test1")
     }
-    
+
     console.log(result)
     console.log(a)
 }
